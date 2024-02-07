@@ -1,3 +1,8 @@
+"""
+TC_PIM_03 - Menu Validation
+Test Objective: Menu validation on the Admin page
+Expected Results: The user should be able to see the Admin, PIM, Leave, Time, Recruitment, My Info, Performance, Dashboard, Directory, Maintenance, and Buzz Menu options on the Admin page.
+"""
 # Importing necessary modules and classes
 from Data import data
 from Locators import locators
