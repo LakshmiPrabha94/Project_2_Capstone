@@ -1,3 +1,13 @@
+"""
+
+TC_PIM_03 - Menu Validation Test Script
+
+Description: This automation script validates the menu options displayed on the Admin page of the OrangeHRM portal.
+Steps:
+Navigate to the Admin page of the OrangeHRM portal.
+Verify the presence of the following menu options: Admin, PIM, Leave, Time, Recruitment, My Info, Performance, Dashboard, Directory, Maintenance, and Buzz.
+Expected Outcome: The script expects the user to be able to see all the specified menu options displayed on the Admin page, ensuring that the page layout and navigation are as expected.
+"""
 # Importing necessary modules and classes
 from Locators import locators
 import pytest
