@@ -1,4 +1,5 @@
 """
+TC_PIM_01 : Forgot Password Link Validation
 Test Objective: Forgot password link validation on the login page
 Expected Results: The user should be able to see the username box and get a successful message saying "Reset password Link sent successfully"
 """
