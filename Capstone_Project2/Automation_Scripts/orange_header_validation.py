@@ -1,3 +1,9 @@
+"""
+TC_PIM_02 - Header Validation
+Test Objective: Header validation on the Admin page
+Expected Results: The user should be able to see the User Management, Job, Organization, Qualification, Nationalities, Corporate Banking, Configuration Header options on Admin page.
+"""
+# Import necessary modules and classes
 from selenium import webdriver
 from selenium.webdriver.firefox.service import Service
 from selenium.webdriver.common.by import By
