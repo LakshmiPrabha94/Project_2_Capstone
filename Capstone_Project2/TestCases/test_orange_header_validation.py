@@ -9,6 +9,7 @@ Verify the presence of the following header options: User Management, Job, Organ
 Expected Outcome: The script expects the user to be able to see all the specified header options displayed on the Admin page, ensuring that the page layout and navigation are as expected
 
 """
+# Importing necessary modules and classes
 import pytest
 from Automation_Scripts.orange_header_validation import Header_validation
 from selenium.webdriver.common.by import By
