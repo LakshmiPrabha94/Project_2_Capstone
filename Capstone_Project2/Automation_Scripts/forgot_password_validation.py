@@ -1,4 +1,8 @@
-# # Import necessary modules and classes
+"""
+Test Objective: Forgot password link validation on the login page
+Expected Results: The user should be able to see the username box and get a successful message saying "Reset password Link sent successfully"
+"""
+# Import necessary modules and classes
 from selenium import webdriver
 from selenium.webdriver.firefox.service import Service
 from selenium.webdriver.common.by import By
