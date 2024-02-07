@@ -1,3 +1,14 @@
+"""
+
+TC_PIM_02 - Header Validation Test Script
+
+Description: This automation script validates the headers displayed on the Admin page of the OrangeHRM portal.
+Steps:
+Navigate to the Admin page of the OrangeHRM portal.
+Verify the presence of the following header options: User Management, Job, Organization, Qualification, Nationalities, Corporate Banking, and Configuration.
+Expected Outcome: The script expects the user to be able to see all the specified header options displayed on the Admin page, ensuring that the page layout and navigation are as expected
+
+"""
 import pytest
 from Automation_Scripts.orange_header_validation import Header_validation
 from selenium.webdriver.common.by import By
