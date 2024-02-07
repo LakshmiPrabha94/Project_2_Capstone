@@ -1,3 +1,16 @@
+"""
+
+TC_PIM_01 - Forgot_Password_Validation Test Script
+
+Description: This automation script verifies the functionality of the "Forgot password" link on the login page of the OrangeHRM portal.
+Steps:
+
+Launch the OrangeHRM portal.
+Click on the "Forgot password" link.
+Enter the username in the provided field.
+Click on the "Submit" button.
+Expected Outcome: The script expects the user to receive a successful message confirming that the "Reset password" link has been sent successfully after entering the username and submitting the request.
+"""
 # Import necessary modules and classes
 from Data import data
 from Locators import locators
